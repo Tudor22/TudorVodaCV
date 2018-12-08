@@ -1,0 +1,265 @@
+ body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+	  height: 100%;
+  }
+  
+ .content-wrapper {
+    margin: auto;
+	width: 90%;
+}
+
+h1,h2,h3,h4 {
+	color: #252423;
+	
+} 	  
+ 
+/** HOME AND NAV **/
+
+.intro {
+    margin: auto;
+    text-align: center;
+    color: #818181;
+    line-height: 0em;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.intro h3{
+	
+	color: #FFFFFF;
+	
+}
+
+.intro-image{
+	background-image: url("background.jpeg");
+	background-color: #cccccc;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	
+}
+
+.navbar {
+      margin-bottom: 0;
+      background-color: #252423;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+.navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+.navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #252423 !important;
+      background-color: #fff !important;
+  }
+.navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+
+  /** ABOUT ME **/
+#aboutMe {
+	margin-left: 	1em; 
+	padding-top:	5em;
+	margin: auto;
+}	
+  
+  /** EDUCATION **/
+#education {
+	margin-left: 	1em; 
+	padding-top:	5em;
+	margin: auto;
+	
+}
+
+#education h2{
+	color: #FFFFFF;
+	
+}	
+
+#ITSkills ul > li { min-height: 30px; padding: 3px 0px; }
+#ITSkills ul > li:hover { background: #F2F2F2; }
+#ITSkills ul > li .ability-title { display: inline-block; width: 60%; }
+#ITSkills ul > li .ability-score { float: right; }
+#ITSkills ul > li .ability-score .glyphicon { 
+	color: #DFE0E0; 
+	font-size: 14px; 
+	 
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#ITSkills ul > li .ability-score .glyphicon.filled { color: #22A39F; }
+#ITSkills ul > li:hover .ability-score .glyphicon { margin-left: 2px; } 
+ 
+ 
+  /** PROJECTS **/
+#projects {
+	margin-left: 	1em; 
+	padding-top:	5em;
+	margin: auto;
+}	
+
+.image1, .image2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content1, .modal-content2 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption1, #caption2 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content1, #caption1, .modal-content2, #caption2 {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close1, .close2{
+	position: absolute;
+	margin-top: 2em;
+	margin-right: 5em;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close1:hover, .close1:focus, .close2:hover, .close2:focus{
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content1,  .modal-content2{
+        width: 100%;
+    }
+}		
+  
+  /** WORK EXPERIENCE **/
+#workExperience {
+	margin-left: 	1em; 
+	padding-top:	5em;
+	margin: auto;
+}	
+
+ /** PROJECTS AND SKILLS **/
+
+ .panel {
+      border: 1px solid #252423; 
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+  
+  .panel:hover {
+      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+      border: 1px solid #252423;
+      background-color: #fff !important;
+      color: #252423;
+  }
+  .panel-heading {
+      color: #fff !important;
+      background-color: #252423 !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+      background-color: white !important;
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+  }
+  .panel-footer .btn {
+      margin: 15px 0;
+      background-color: #252423;
+      color: #fff;
+  } 
+ 
+  /** CONTACT ME **/
+#contactMe {
+	margin-left: 	1em; 
+	padding-top:	5em;
+	margin: auto;
+
+}
+	
+  /** FOOTER **/
+footer {
+    text-align: center;	
+	background-color: #2d2d30;
+	color: #f5f5f5;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+footer a {
+    color: #f5f5f5;
+}
+
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
