@@ -21,9 +21,9 @@ h1,h2,h3,h4 {
     margin: auto;
     text-align: center;
     color: #818181;
-    line-height: 0em;
     padding-top: 100px;
     padding-bottom: 10px;
+	width:100%
 }
 
 .intro h3{
@@ -39,8 +39,10 @@ h1,h2,h3,h4 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+	width:100%
 	
 }
+
 
 .navbar {
       margin-bottom: 0;
@@ -84,6 +86,13 @@ h1,h2,h3,h4 {
 	color: #FFFFFF;
 	
 }	
+
+#ITSkills {
+	margin-left: 	1em; 
+	padding-top:	5em;
+	margin: auto;
+	
+}
 
 #ITSkills ul > li { min-height: 30px; padding: 3px 0px; }
 #ITSkills ul > li:hover { background: #F2F2F2; }
@@ -243,6 +252,12 @@ h1,h2,h3,h4 {
 	margin: auto;
 
 }
+
+.alert{
+	display:none;
+	text-align: left;
+}	
+
 	
   /** FOOTER **/
 footer {
