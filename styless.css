@@ -1,4 +1,4 @@
- body {
+ body html{
       font: 400 15px Lato, sans-serif;
       line-height: 1.8;
       color: #818181;
@@ -17,32 +17,27 @@ h1,h2,h3,h4 {
  
 /** HOME AND NAV **/
 
-.intro {
+#intro {
     margin: auto;
     text-align: center;
     color: #818181;
     padding-top: 100px;
     padding-bottom: 10px;
-	width:100%
-}
-
-.intro h3{
-	
-	color: #FFFFFF;
-	
-}
-
-.intro-image{
+	width:100%;
 	background-image: url("background.jpeg");
 	background-color: #cccccc;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-	width:100%
-	
+	height: 100%; 	
 }
 
+#intro h3{
+	
+	color: #FFFFFF;
+	
+}
 
 .navbar {
       margin-bottom: 0;
