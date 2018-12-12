@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="styless.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
   
   
 </head>
@@ -29,14 +29,15 @@
 				<li><a href="#aboutMe">About me</a></li>
 				<li><a href="#education">Education</a></li>
 				<li><a href="#projects">Projects</a></li>
-				<li><a href="#ITSkills">IT Skills</a></li>
 				<li><a href="#workExperience">Work Experience</a></li>
 				<li><a href="#contactMe">Contact Me</a></li>
 				<form action="http://www.google.com/search" target="_blank" method="get">
 					<fieldset>
 						<input type="hidden" name="search" value="it-tallaght.ie" />
 						<input type="text" name="q" size="31" maxlength="255"  /> 
-						<input type="submit" value="Google Search" />
+						<button type="submit" class="btn" style="font-size: 10px;">
+							<span class="glyphicon glyphicon-search"></span> Google Search
+						</button>
 					</fieldset>
 				</form>
 		  </ul>
@@ -47,14 +48,17 @@
 		<div id="intro" class="container-fluid text-center">
 		 <div class="row">
                     <div class="col-sm-12">
-                        <div class="bg">
 							<div class="intro-image">
                                 <div class="intro">
-                                    <img src="me.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Tudor Voda" width="304" height="236"> 
-									<h3> My name is Tudor Voda </h3>
+                                    <img src="images/me.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Tudor Voda" width="304" height="236"> 
+									<h3> Tudor Voda </h3>
+									<h3>I'm a developer</h3>
+									<a href="https://www.linkedin.com/in/tudor-voda-855932116/" target="_blank">
+									<button type="button" style="color:#FFFFFF; background-color:#252423;" class="btn ">LinkedIn</button>
+									</a>&nbsp;&nbsp;&nbsp;
+									<button type="button" style="color:#FFFFFF; background-color:#252423;" class="btn " data-toggle="modal" data-target="#myModal" >Contact me</button>
                                 </div>
 							</div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -63,7 +67,7 @@
 			<div id="aboutMe">
 				
 				<h1>About me</h1>
-				<p>I am currently in my final (4th) year of my computer science diploma studies in IT Tallaght. In my third year I gained experience of working in Verifone as embedded linux unit test engineer. 
+				<p>&nbsp;&nbsp;&nbsp;&nbsp; I am currently in my final (4th) year of my computer science diploma studies in IT Tallaght. In my third year I gained experience of working in Verifone as embedded linux unit test engineer. 
 				I am currently looking for a permanent full time employment position to start in 2019, immediately after completing my computer science degree.
 				I am looking for an entry-level position in Company with a view to progressing within the organisation into a development role over time (or … utilizing the contract to enhance my skills and experience).
 				ICT student with relevant employment experience and strong interpersonal skills seeks work placement position. I have a passion for challenge and innovation, and I would like bring new ideas to your Company. 
@@ -76,15 +80,15 @@
 				<h1>Education</h1>
 				<h3> 2015 – ongoing B.Sc in Computing, Institute of Technology Tallaght, Dublin 24 </h3>
 				<a href="https://www.it-tallaght.ie/index.cfm" target="_blank">
-						<img src="ITT.jpeg" style="width:20%;height:20%;float:left;"/>
+						<img src="images/ITT.jpeg" style="width:20%;height:20%;float:left;margin-right:1em;"/>
 				</a>
 				<h3> Institute of Technology Tallaght </h3>
-				<p> Institute of Technology Tallaght is one of the leading higher education institutes in Ireland. It is accredited as a member of the European Credit Transfer Scheme for Higher Education Awards 
+				<p> &nbsp;&nbsp;&nbsp;&nbsp; Institute of Technology Tallaght is one of the leading higher education institutes in Ireland. It is accredited as a member of the European Credit Transfer Scheme for Higher Education Awards 
 				and we have been awarded the Extended European Erasmus University Charter. Our qualifications are recognized world-wide and 
 				therefore provide opportunities for educational and career mobility on a global basis.<p>
 				
 				<h4>Course: Bachelor of Science (Honours) in Computing with Software Development</h4>
-				<p>The IT Tallaght Computing programme combines the advanced theory sought by industry with up to date current hands on skills in areas such as DevOps. 
+				<p>&nbsp;&nbsp;&nbsp;&nbsp; The IT Tallaght Computing programme combines the advanced theory sought by industry with up to date current hands on skills in areas such as DevOps. 
 				You will learn advanced data structures and algorithms, a range of programming languages and frameworks covering the major language types and developing for cloud/ web / mobile device.
 				Allied to this you will learn advanced database, networks, operating systems, analysis and security material.
 				We have taken inputs from a wide range of serious ICT Sector companies such as IBM, Microsoft, SAP among others in developing this programme.</p>
@@ -92,7 +96,7 @@
 				<h1> Grades </h1>
 				<div class="row slideanim">
 					<div class="col-sm-3 col-xs-12">
-					  <div class="panel panel-default text-center">
+					  <div class="panel panel-default">
 						<div class="panel-heading">
 						  <h2>Fourth Year</h2>
 						</div>
@@ -114,7 +118,7 @@
 					  </div>      
 					</div>     
 					<div class="col-sm-3 col-xs-12">
-					  <div class="panel panel-default text-center">
+					  <div class="panel panel-default">
 						<div class="panel-heading">
 						  <h2>Third Year</h2>
 						</div>
@@ -134,7 +138,7 @@
 					  </div>      
 					</div>       
 					<div class="col-sm-3 col-xs-12">
-					  <div class="panel panel-default text-center">
+					  <div class="panel panel-default">
 						<div class="panel-heading">
 						  <h2>Second Year</h2>
 						</div>
@@ -158,7 +162,7 @@
 					  </div>      
 					</div>  
 					<div class="col-sm-3 col-xs-12">
-					  <div class="panel panel-default text-center">
+					  <div class="panel panel-default">
 						<div class="panel-heading">
 						  <h2>First Year</h2>
 						</div>
@@ -195,14 +199,14 @@
 							  </h4>
 							</div>
 							<div id="collapse1" class="panel-collapse collapse in">
-								<img id="myImg1" src="secondYearProject.png" style="width:25%;height:25%;float:left;"/>
+								<img id="myImg1" src="images/secondYearProject.png" style="width:15%;height:15%;float:left;margin-right:1em;"/>
 									<!-- The Modal -->
 									<div id="myImage1" class="image1">
 										  <span class="close1">&times;</span>
 										  <img class="modal-content1" id="img01">
 										  <div id="caption1"></div>
 									</div>
-							  <div class="panel-body">A two persons project which involve making a system for booking tickets, where multiple users could book tickets to the movie they wish to see. <br>
+							  <div class="panel-body">&nbsp;&nbsp;&nbsp;&nbsp; A two persons project which involve making a system for booking tickets, where multiple users could book tickets to the movie they wish to see. <br>
 								Technologies & Tools Used: Java, SQL Database  <a href="https://github.com/X00126628/2nd-Year-Project" target="_blank"><span class="glyphicon glyphicon-download"></span></a></div>
 							</div>
 						  </div>
@@ -214,305 +218,55 @@
 							  </h4>
 							</div>
 							<div id="collapse2" class="panel-collapse collapse">
-									<img id="myImg2" src="firstYearPorject.png" style="width:25%;height:25%;float:left;"/>
+									<img id="myImg2" src="images/firstYearPorject.png" style="width:15%;height:15%;float:left;"/>
 										<!-- The Modal -->
 										<div id="myImage2" class="image2">
 										  <span class="close2">&times;</span>
 										  <img class="modal-content2" id="img02">
 										  <div id="caption2"></div>
 										</div>
-								 <div class="panel-body">A three persons project involving the development of a website, where multiple users could order food online which is directly connected to the restaurant. 
+								 <div class="panel-body">&nbsp;&nbsp;&nbsp;&nbsp; A three persons project involving the development of a website, where multiple users could order food online which is directly connected to the restaurant. 
 								Features included account authorization, online payment, menus and a shopping cart. <br>
 								Technologies & Tools Used: HTTP, CSS, Java, Play Framework, SQL Database  <a href="https://www.dropbox.com/s/28c2bt7fo4rlf34/CA2.java?dl=0" target="_blank"> <span class="glyphicon glyphicon-download"></span></a></div>
 							</div>
 						  </div>
-						
-					</div>
-				</div>	
-				
-				<div id="ITSkills">
-						<div class="panel panel-default">
+						 <div class="panel panel-default">
 							<div class="panel-heading">
 							  <h4 class="panel-title">
-								   <a data-toggle="collapse" href="#collapse3"> IT Skills</a>
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+								IT Skills</a>
 							  </h4>
 							</div>
-							<div id="collapse3" class="panel-collapse collapse">
-								<div class="row">
-								<div class="col-md-6">
-								<ul class="no-bullets">
-									<li>
-										<span class="ability-title">Java</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>		
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">C++</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">C</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>	
-											<span class="glyphicon glyphicon-star filled"></span>		
-										</span>
-									</li>	
-									<li>
-										<span class="ability-title">C#</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">SQL</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>		
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">Linux</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>	
-											<span class="glyphicon glyphicon-star filled"></span>			
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">Docker</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>	
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">Github</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>		
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">Python</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star "></span>	
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">Windows Command line Inteface</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star "></span>	
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">HTML</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star "></span>	
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">CSS</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star "></span>
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">Bootstrap Framework</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star "></span>	
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">Javascript</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star "></span>		
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">Scrum</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star "></span>		
-										</span>
-									</li>
-								</ul>
+							<div id="collapse3" class="panel-collapse collapse ">
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+								  C++ 100%
+								</div>
 							</div>
-								<div class="col-md-6">
-									<ul class="no-bullets">
-										<li>
-											<span class="ability-title">Jira</span>
-											<span class="ability-score">
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star "></span>		
-											</span>
-										</li>
-										<li>
-											<span class="ability-title">Method Factory Pattern</span>
-											<span class="ability-score">
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star "></span>			
-											</span>
-										</li>
-										<li>
-											<span class="ability-title">Object Orientated Programming</span>
-											<span class="ability-score">
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star filled"></span>		
-												<span class="glyphicon glyphicon-star "></span>		
-											</span>
-										</li>
-										<li>
-											<span class="ability-title">SASS / SCSS</span>
-											<span class="ability-score">
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star filled"></span>		
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star "></span>		
-											</span>
-										</li>
-										<li>
-											<span class="ability-title">SEO</span>
-											<span class="ability-score">
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star filled"></span>	
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star "></span>	
-											</span>
-										</li>
-										<li>
-											<span class="ability-title">Scrum</span>
-											<span class="ability-score">
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star "></span>		
-											</span>
-										</li>
-										<li>
-											<span class="ability-title">Microsoft Office</span>
-											<span class="ability-score">
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star "></span>			
-											</span>
-										</li>
-										<li>
-											<span class="ability-title">UML</span>
-											<span class="ability-score">
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star "></span>
-												<span class="glyphicon glyphicon-star "></span>			
-											</span>
-										</li>
-										<li>
-											<span class="ability-title">JSON</span>
-											<span class="ability-score">		
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star filled"></span>	
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star "></span>
-												<span class="glyphicon glyphicon-star "></span>				
-											</span>
-										</li>
-										<li>
-											<span class="ability-title">AngularJS</span>
-											<span class="ability-score">
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star filled"></span>
-												<span class="glyphicon glyphicon-star "></span>
-												<span class="glyphicon glyphicon-star "></span>		
-												<span class="glyphicon glyphicon-star "></span>		
-											</span>
-										</li>
-										<li>
-											<span class="ability-title">R</span>
-											<span class="ability-score">			
-												<span class="glyphicon glyphicon-star filled"></span>		
-												<span class="glyphicon glyphicon-star "></span>		
-												<span class="glyphicon glyphicon-star "></span>			
-												<span class="glyphicon glyphicon-star "></span>		
-												<span class="glyphicon glyphicon-star "></span>				
-											</span>
-										</li>	
-									</ul>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								  Docker 80%
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+								  HTML 60%
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+								  CSS 60%
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:20%">
+								  R 20%
 								</div>
 							</div>
 							</div>
-						  </div>
-						
-						</div>	
-					
+						</div>
+					</div>
+				</div>	
 				
 				
 					<div id="workExperience">
@@ -521,10 +275,10 @@
 						  <div class="row">
 							<div class="span4">					
 							  <a href="https://www.verifone.com/en/us" target="_blank">
-								<img src="verifone.jpg" style="width:40%;height:40%;float:left;"/>
+								<img src="images/verifone.jpg" style="width:40%;height:40%;float:left;margin-right:1em;"/>
 							  </a>
-								<h2> January 2018 – August 2018	Embedded Linux Unit Test Engineer Intern Verifone </h2>
-								<p> Company Description:  Verifone is an American multinational corporation headquartered in San Jose, California, 
+								<h2>Embedded Linux Unit Test Engineer Intern Verifone, January 2018 – August 2018</h2>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;  Company Description:  Verifone is an American multinational corporation headquartered in San Jose, California, 
 									that provides technology for electronic payment transactions and value-added services at the point-of-sale.
 								</p>
 								<h3>Main Responsibilities </h3>
@@ -543,10 +297,10 @@
 						  <div class="row">
 							<div class="span4">					
 							  <a href="https://www.spar.ie/" target="_blank">
-								<img src="spar.png" style="width:15%;height:15%;float:right;"/>
+								<img src="images/spar.png" style="width:15%;height:15%;float:left;margin-right:2em;"/>
 							  </a>
-								<h2> September 2016 – December 2016	Cashier at SPAR </h2>
-								<p> Operating in Ireland for over 50 years, SPAR is one of the country’s largest convenience retail groups. From the time it opened its first store in Dublin in 1963, 
+								<h2> Cashier at SPAR September, 2016 – December 2016 </h2>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp; Operating in Ireland for over 50 years, SPAR is one of the country’s largest convenience retail groups. From the time it opened its first store in Dublin in 1963, 
 								the brand has been a leader in Irish convenience retailing, bringing consumers the most innovative products and in-store offerings.  
 								The group, which is part of leading wholesale and retail company BWG Foods UC, includes SPAR for neighbourhood shopping and SPAR Express for forecourt shopping.  
 								With a presence in every county across Ireland, SPAR’s over 370 stores provide employment for 14,000 people locally.
@@ -565,12 +319,12 @@
 					
 					<div id="contactMe">
 					  <h1>Contact Me </h1>
-					  <div class="row test">
+					  <div class="row">
 						<div class="col-sm-4 col-xs-12">
 						  <p><span class="glyphicon glyphicon-map-marker"></span>4 Herberton street, Apartament 4, Rialto, Dublin 8</p>
 						  <p><span class="glyphicon glyphicon-phone"></span>Phone: +353 877487119</p>
 						  <p><span class="glyphicon glyphicon-envelope"></span>Email: tudorvoda@hotmail.com</p> 
-						  <button type="button" style="color:#FFFFFF; background-color:#252423;" class="btn btn-success" data-toggle="modal" data-target="#myModal" >Contact me</button>
+						  <button type="button" style="color:#FFFFFF; background-color:#252423;" class="btn" data-toggle="modal" data-target="#myModal" >Contact me</button>
 						</div>
 						<div class="col-sm-8 col-xs-12">
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3369.000219421832!2d-6.291762380531803!3d53.338907950865874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTPCsDIwJzE1LjYiTiA2wrAxNyczMS4yIlc!5e0!3m2!1sen!2sie!4v1544133994840" 
@@ -597,8 +351,8 @@
 						  <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
 						</div>
 						<div class="modal-footer">
-						  <button type="button" style="color:#FFFFFF; background-color:#252423;" class="btn btn-success" data-dismiss="modal">Close</button>
-							<button id="btnShow" style="color:#FFFFFF; background-color:#252423;"class="btn btn-success" >Send</button>
+						  <button type="button" style="color:#FFFFFF; background-color:#A9A9A9;" class="btn" data-dismiss="modal">Close</button>
+							<button id="btnShow" style="color:#FFFFFF; background-color:#252423;"class="btn" >Send</button>
 							<div class="alert alert-success alert-dismissable">
 								<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
 								<p>Message sent successfully.<p>
@@ -625,101 +379,13 @@
 					<a href="[full link to your Facebook page]" target="_blank">
 					<img title="Facebook" alt="Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook1.png" width="35" height="35" />
 					</a>
-
-
 					</div>
 				</div>
         </footer>
-
-	<script>
-		// Get the modal
-		var image1 = document.getElementById('myImage1');
-	
-		// Get the image and insert it inside the modal - use its "alt" text as a caption
-		var img1 = document.getElementById('myImg1');
-		var modalImg1 = document.getElementById("img01");
-		var captionText1 = document.getElementById("caption1");
-		img1.onclick = function(){
-			image1.style.display = "block";
-			modalImg1.src = this.src;
-			captionText1.innerHTML = this.alt;
-		}
 		
-		// Get the <span> element that closes the modal
-		var span1 = document.getElementsByClassName("close1")[0];
-
-		// When the user clicks on <span> (x), close the modal
-		span1.onclick = function() { 
-			image1.style.display = "none";
-		}
-
-		var image2 = document.getElementById('myImage2');
+		<script src="js/alert.js"></script>
+		<script src="js/images.js"></script>
+		<script src="js/scrolling.js"></script>
 		
-		var img2 = document.getElementById('myImg2');
-		var modalImg2 = document.getElementById("img02");
-		var captionText2 = document.getElementById("caption2");
-		img2.onclick = function(){
-			image2.style.display = "block";
-			modalImg2.src = this.src;
-			captionText2.innerHTML = this.alt;
-		}
-		
-		// Get the <span> element that closes the modal
-		var span2 = document.getElementsByClassName("close2")[0];
-
-		// When the user clicks on <span> (x), close the modal
-		span2.onclick = function() { 
-			image2.style.display = "none";
-		}
-
-	</script>
-	
-	<script> 
-		$("#btnShow").click(function(){
-		  $(".alert").hide().show('medium');
-		});
-	</script>
-	
-	
-	<script> 
-	$(document).ready(function(){
-			  // Add smooth scrolling to all links in navbar + footer link
-			  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-				// Make sure this.hash has a value before overriding default behavior
-				if (this.hash !== "") {
-				  // Prevent default anchor click behavior
-				  event.preventDefault();
-
-				  // Store hash
-				  var hash = this.hash;
-
-				  // Using jQuery's animate() method to add smooth page scroll
-				  // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-				  $('html, body').animate({
-					scrollTop: $(hash).offset().top
-				  }, 900, function(){
-			   
-					// Add hash (#) to URL when done scrolling (default click behavior)
-					window.location.hash = hash;
-				  });
-				} // End if
-			  });
-			  
-			  $(window).scroll(function() {
-				$(".slideanim").each(function(){
-				  var pos = $(this).offset().top;
-
-				  var winTop = $(window).scrollTop();
-					if (pos < winTop + 600) {
-					  $(this).addClass("slide");
-					}
-				});
-			  });
-			})
-	</script>	
-	
-
-	
-	
 </body>
 </html>
