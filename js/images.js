@@ -37,3 +37,22 @@
 		span2.onclick = function() { 
 			image2.style.display = "none";
 		}
+		
+		var image3 = document.getElementById('myImage3');
+		
+		var img3 = document.getElementById('myImg3');
+		var modalImg3 = document.getElementById("img03");
+		var captionText3 = document.getElementById("caption3");
+		img3.onclick = function(){
+			image3.style.display = "block";
+			modalImg3.src = this.src;
+			captionText3.innerHTML = this.alt;
+		}
+		
+		// Get the <span> element that closes the modal
+		var span3 = document.getElementsByClassName("close3")[0];
+
+		// When the user clicks on <span> (x), close the modal
+		span3.onclick = function() { 
+			image3.style.display = "none";
+		}
