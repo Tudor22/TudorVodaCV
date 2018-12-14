@@ -15,6 +15,14 @@ h1,h2,h3,h4 {
 	
 } 	  
  
+/** REFRENCES **/ 
+#refrences{
+	margin-left: 	1em; 
+	padding-top:	5em;
+	margin: auto;
+	
+}
+ 
 /** HOME AND NAV **/
 
 #intro {
