@@ -21,8 +21,8 @@ h1,h2,h3,h4 {
     margin: auto;
     text-align: center;
     color: #818181;
-    padding-top: 15%;
-    padding-bottom: 5%;
+    padding-top: 20%;
+    padding-bottom: 12%;
 	background-image: url("../images/background.jpeg");
 	background-color: #cccccc;
 	background-position: center;
@@ -30,6 +30,7 @@ h1,h2,h3,h4 {
 	background-size: cover;
 	position: relative;
 	height: 100%;
+	background-attachment: fixed;
 }
 
 #intro h3{
@@ -102,7 +103,14 @@ h1,h2,h3,h4 {
 	padding-top:	5em;
 	margin: auto;
 }	
-  
+ 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+ 
   /** EDUCATION **/
 #education {
 	margin-left: 	1em; 
@@ -201,10 +209,14 @@ h1,h2,h3,h4 {
     }
 }		
   
-#collapse4{
-	padding-top: 1em;
-	
-}  
+
+
+/* IT Skills */
+#ITSkills {
+	margin-left:1em; 
+	padding-top:5em;
+	margin: auto;
+}	
 
 .progress {
   width: 100%;
